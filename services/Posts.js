@@ -1,4 +1,4 @@
-const jsonDrawContent = require('../utils/jsonDrawContent');
+const markdownContent = require('../utils/markdownContent');
 const _ = require('lodash');
 
 const PostService = (faker) => {
@@ -6,7 +6,7 @@ const PostService = (faker) => {
   _.times(10, () => {
     posts.push({
       "categoryId": faker.random.number(9999),
-      "content": jsonDrawContent,
+      "content": markdownContent,
       "coverImageSrc": faker.image.imageUrl(1200, 500),
       "createDate": faker.date.between('2015-01-01', '2015-01-05'),
       "id": faker.random.uuid(),

@@ -1,5 +1,4 @@
 const contentMarkdown = `
-
 If you want to embed images, this is how you do it:
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
@@ -13,9 +12,7 @@ But I have to admit, tasks lists are my favorite:
 
 When you include a task list in the first comment of an Issue, you will see a helpful progress bar in your list of issues. It works in Pull Requests, too!
 
-And, of course emoji!
-
-
+And, of course emoji! ❤😍⚡💻😎
 `;
 
 module.exports = contentMarkdown;
