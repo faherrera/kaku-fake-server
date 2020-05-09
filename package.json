@@ -2,7 +2,7 @@
   "name": "FakeServer",
   "version": "1.0.0",
   "description": "",
-  "main": "services.js",
+  "main": "server.js",
   "dependencies": {
     "faker": "^4.1.0",
     "lodash": "^4.17.15"
