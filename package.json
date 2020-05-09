@@ -12,10 +12,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "runn": "json-server --watch services.js",
+    "dev": "json-server --watch services.js",
     "start": "node server.js"
   },
-  "keywords": [],
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
   "author": "",
   "license": "ISC"
 }
