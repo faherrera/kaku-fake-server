@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "json-server --watch services.js",
+    "dev": "json-server --watch services.js -p 3001",
     "start": "node server.js"
   },
   "keywords": [
